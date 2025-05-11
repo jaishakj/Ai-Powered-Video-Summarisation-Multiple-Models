@@ -53,9 +53,11 @@ This will install YOLOv5 and automatically download the default yolov5s.pt model
 
 python main.py
 ```
-~Click Select Video
-~The application will extract frames, detect objects, and generate captions.
-~Summarized captions will appear on the GUI.
+-Click Select Video
+
+-The application will extract frames, detect objects, and generate captions.
+
+-Summarized captions will appear on the GUI.
 
 ## Headless Mode (optional - CLI)
 ```python
@@ -77,13 +79,19 @@ summarize_video("sample.mp4")
 
 ### 🧠 Models Used
 ## 🟦 YOLOv5
+
 -Version: YOLOv5s (Ultralytics)
+
 -Use: Object detection on each keyframe
+
 -Source: https://github.com/ultralytics/yolov5
 
 ## 🟩 BLIP
+
 -Model: Salesforce/blip-image-captioning-base
+
 -Use: Generate captions for frames
+
 -HuggingFace: https://huggingface.co/Salesforce/blip-image-captioning-base
 
 ### 📸 Example Output
@@ -96,18 +104,25 @@ Frame 2: A car is parked on a busy street. | Objects detected: car, truck, perso
 ### 🧪 Tests
 
 -Tested on .mp4 and .avi formats.
+
 -Runs on both Windows and Linux (Tkinter GUI supported).
 
 ### ⚠️ Known Issues
 
 -YOLOv5 detection may be inaccurate on low-resolution frames.
+
 -BLIP processing is slower on CPU; use CUDA-enabled GPU for best performance.
+
 -Tkinter GUI may freeze on very large videos (>300MB)
 
 ### 📬 Contribution Guidelines
 
 -Fork the repo
+
 -Create a new branch (git checkout -b feature-name)
+
 -Commit your changes (git commit -m "Add feature")
+
 -Push to the branch (git push origin feature-name)
+
 -Create a pull request

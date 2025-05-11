@@ -69,12 +69,20 @@ summarize_video("sample.mp4")
 ### 📁 Project Structure
 ```bash
 
-.
-├── main.py                  # GUI + Core logic
-├── summarize.py             # Summarization logic
-├── yolov5s.pt               # YOLOv5 model (auto-downloaded)
-├── README.md
-├── requirements.txt
+Directory structure:
+└── jaishakj-ai-powered-video-summarisation-multiple-models/
+    ├── README.md
+    ├── Code with YOLOv4 Integration.py
+    ├── Code with YOLOv5 Integration.py
+    ├── LICENSE
+    ├── main.py
+    ├── requirements.txt
+    ├── summarize.py
+    ├── Video_Summarisation_with_BLIP.py
+    └── .github/
+        └── workflows/
+            └── python-package.yml
+
 ```
 
 ### 🧠 Models Used

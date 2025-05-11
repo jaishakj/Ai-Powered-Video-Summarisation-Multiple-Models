@@ -1,0 +1,9 @@
+
+__pycache__/
+*.pyc
+*.pt
+*.mp4
+.env
+models/yolov5s.pt
+examples/
+outputs/
